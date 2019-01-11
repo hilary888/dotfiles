@@ -1,0 +1,19 @@
+# set tab width to 4 spaces
+set tabsize 4       
+# convert tabs to spaces
+set tabstospaces    
+# show line numbers
+set linenumbers     
+# enable autoindent
+set autoindent      
+# files are opened into buffers instead of appending to current
+set multibuffer     
+# enable smooth scrolling
+set smooth          
+# match brackets for better experience
+#set matchbrackets "(]}"
+#set matchbrackets string "(<[{)>]}"
+set brackets ""')>]}"
+set matchbrackets "(<[{)>]}"
+# python
+include "/usr/share/nano/python.nanorc"
